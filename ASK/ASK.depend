@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1607140631 source:c:\users\mahmo\desktop\oop project\ask\main.cpp
+	<bits/stdc++.h>
+	<iostream>
+	"ConfigManager.h"
+	"User.h"
+	"Interface.h"
+
+1599449970 c:\users\mahmo\desktop\oop project\ask\user.h
+	<bits/stdc++.h>
+
+1599449975 c:\users\mahmo\desktop\oop project\ask\interface.h
+	<bits/stdc++.h>
+
+1599994733 source:c:\users\mahmo\desktop\oop project\ask\src\interface.cpp
+	<bits/stdc++.h>
+	"Interface.h"
+	"User.h"
+
+1599994704 c:\users\mahmo\desktop\oop project\ask\include\interface.h
+	"UserManager.h"
+
+1600143174 source:c:\users\mahmo\desktop\oop project\ask\src\user.cpp
+	<bits/stdc++.h>
+	"User.h"
+
+1600146669 c:\users\mahmo\desktop\oop project\ask\include\user.h
+	<bits/stdc++.h>
+	"Service.h"
+
+1599635564 source:c:\users\mahmo\desktop\oop project\ask\src\configmanager.cpp
+	<bits/stdc++.h>
+	"ConfigManager.h"
+
+1599795635 c:\users\mahmo\desktop\oop project\ask\include\configmanager.h
+	<bits/stdc++.h>
+	"User.h"
+	"Interface.h"
+
+1600059151 source:c:\users\mahmo\desktop\oop project\ask\src\questions.cpp
+	<bits/stdc++.h>
+	"Questions.h"
+
+1600059145 c:\users\mahmo\desktop\oop project\ask\include\questions.h
+	<bits/stdc++.h>
+	"Service.h"
+
+1600059170 source:c:\users\mahmo\desktop\oop project\ask\src\questionmanager.cpp
+	<bits/stdc++.h>
+	"QuestionManager.h"
+
+1600056676 c:\users\mahmo\desktop\oop project\ask\include\questionmanager.h
+	"Questions.h"
+	"User.h"
+
+1600146559 source:c:\users\mahmo\desktop\oop project\ask\src\usermanager.cpp
+	<bits/stdc++.h>
+	"UserManager.h"
+
+1600143848 c:\users\mahmo\desktop\oop project\ask\include\usermanager.h
+	<bits/stdc++.h>
+	"User.h"
+
+1599800795 source:c:\users\mahmo\desktop\oop project\ask\src\generalservice.cpp
+	<bits/stdc++.h>
+	"GeneralService.h"
+
+1599800852 c:\users\mahmo\desktop\oop project\ask\include\generalservice.h
+	<bits/stdc++.h>
+
+1600141977 c:\users\mahmo\desktop\oop project\ask\include\service.h
+	<bits/stdc++.h>
+
+1600143305 source:c:\users\mahmo\desktop\oop project\ask\src\service.cpp
+	<bits/stdc++.h>
+	"Service.h"
+

@@ -1,0 +1,16 @@
+
+
+This is returning by value (a copy of obj and not obj itself):
+
+B getB()
+{
+    return obj;
+}
+
+To return the variable itself, you should return a reference to it:
+
+B& getB()
+{
+    return obj;
+}
+

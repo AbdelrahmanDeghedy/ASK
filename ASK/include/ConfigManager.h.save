@@ -1,0 +1,18 @@
+#ifndef CONFIGMANAGER_H
+#define CONFIGMANAGER_H
+#include <bits/stdc++.h>
+#include "User.h"
+#include "Interface.h"
+
+class ConfigManager
+{
+public:
+    vector <User> getUser ();
+    Interface getInterface ();
+    void run ();
+
+private:
+  
+};
+
+#endif // CONFIGMANAGER_H
