@@ -1,0 +1,22 @@
+vector <string> Service :: stringSplitter (string s, char delimiter)
+{
+    int index;
+    vector <string> vec;
+    string x;
+    for (int i = 0; i < (int) s.length(); i++)
+    {
+        x += s[i];
+        if (s[i] == delimiter)
+        {
+            x.erase (x.length() - 1, 1);
+            vec.push_back (x);
+            x.clear();
+            index = i;  //index of last delimiter
+       }
+    }
+    for (int i = index + 1; i < (int) s.size(); i++)    // to add last part after the last delimiter
+        x += s[i];
+    vec.push_back (x);
+
+    return vec;
+}

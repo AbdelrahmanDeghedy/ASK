@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+#include "ConfigManager.h"
+
+vector <User> ConfigManager :: getUser ()
+{
+    return user;
+}
+
+Interface ConfigManager :: getInterface ()
+{
+    return interface;
+}
+
+void ConfigManager :: run ()
+{
+    interface.showSubMenu ();
+}
+void ConfigManager :: signUp ()
+{
+    User u;
+    getUser().push_back (u);
+    getUser
+}
+void ConfigManager :: login ()
+{
+    User u;
+    getUser().push_back (u);
+
+}
